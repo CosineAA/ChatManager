@@ -31,10 +31,10 @@ class ChatCommand : CommandExecutor, ChatService {
     override fun freezeChat() {
         if (freeze) {
             freeze = false
-            Bukkit.broadcastMessage("$prefix 채팅 잠금이 해제됩니다.")
+            Bukkit.broadcastMessage("$prefix 전체 채팅 잠금이 해제됩니다.")
         } else {
             freeze = true
-            Bukkit.broadcastMessage("$prefix 채팅을 잠급니다.")
+            Bukkit.broadcastMessage("$prefix 전체 채팅을 잠급니다.")
         }
     }
 
