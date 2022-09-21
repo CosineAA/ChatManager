@@ -1,0 +1,8 @@
+name: ChatManager
+version: '${version}'
+main: com.cosine.chatmanager
+authors: [ Cosine_A ]
+description: 채팅 관리 플러그인
+
+commands:
+  채팅:
